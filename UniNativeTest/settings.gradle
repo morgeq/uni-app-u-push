@@ -1,0 +1,3 @@
+rootProject.name='UniNativeTest'
+include ':app'
+include ':elitetyc_plugin'

@@ -1,0 +1,22 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "component",
+          "name": "ElitetycText",
+          "class": "uni.UNI910BAD2.elitetyc_plugin.TestComponentPlugin"
+        }
+      ]
+    },
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "nrb-upush-plugin",
+          "class": "uni.UNI910BAD2.elitetyc_plugin.UPushModule"
+        }
+      ]
+    }
+  ]
+}

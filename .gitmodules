@@ -1,0 +1,3 @@
+[submodule "uni-app-u-push"]
+	path = uni-app-u-push
+	url = git@github.com:morgeq/uni-app-u-push.git
