@@ -1,37 +1,10 @@
-## ¼ò½é
+## ç®€ä»‹
 
-ThinkPHP ÊÇÒ»¸öÃâ·Ñ¿ªÔ´µÄ£¬¿ìËÙ¡¢¼òµ¥µÄÃæÏò¶ÔÏóµÄ ÇáÁ¿¼¶PHP¿ª·¢¿ò¼Ü £¬´´Á¢ÓÚ2006Äê³õ£¬×ñÑ­Apache2¿ªÔ´Ð­Òé·¢²¼£¬ÊÇÎªÁËÃô½ÝWEBÓ¦ÓÃ¿ª·¢ºÍ¼ò»¯ÆóÒµÓ¦ÓÃ¿ª·¢¶øµ®ÉúµÄ¡£ThinkPHP´Óµ®ÉúÒÔÀ´Ò»Ö±±ü³Ð¼ò½àÊµÓÃµÄÉè¼ÆÔ­Ôò£¬ÔÚ±£³Ö³öÉ«µÄÐÔÄÜºÍÖÁ¼òµÄ´úÂëµÄÍ¬Ê±£¬Ò²×¢ÖØÒ×ÓÃÐÔ¡£²¢ÇÒÓµÓÐÖÚ¶àµÄÔ­´´¹¦ÄÜºÍÌØÐÔ£¬ÔÚÉçÇøÍÅ¶ÓµÄ»ý¼«²ÎÓëÏÂ£¬ÔÚÒ×ÓÃÐÔ¡¢À©Õ¹ÐÔºÍÐÔÄÜ·½Ãæ²»¶ÏÓÅ»¯ºÍ¸Ä½ø£¬ÒÑ¾­³É³¤Îª¹úÄÚ×îÁìÏÈºÍ×î¾ßÓ°ÏìÁ¦µÄWEBÓ¦ÓÃ¿ª·¢¿ò¼Ü£¬ÖÚ¶àµÄµäÐÍ°¸ÀýÈ·±£¿ÉÒÔÎÈ¶¨ÓÃÓÚÉÌÒµÒÔ¼°ÃÅ»§¼¶µÄ¿ª·¢¡£
+å‹ç›Ÿuni-appæ’ä»¶
 
-## È«ÃæµÄWEB¿ª·¢ÌØÐÔÖ§³Ö
+## å®‰å…¨æ€§
 
-×îÐÂµÄThinkPHPÎªWEBÓ¦ÓÃ¿ª·¢Ìá¹©ÁËÇ¿ÓÐÁ¦µÄÖ§³Ö£¬ÕâÐ©Ö§³Ö°üÀ¨£º
 
-*  MVCÖ§³Ö-»ùÓÚ¶à²ãÄ£ÐÍ£¨M£©¡¢ÊÓÍ¼£¨V£©¡¢¿ØÖÆÆ÷£¨C£©µÄÉè¼ÆÄ£Ê½
-*  ORMÖ§³Ö-Ìá¹©ÁËÈ«¹¦ÄÜºÍ¸ßÐÔÄÜµÄORMÖ§³Ö£¬Ö§³Ö´ó²¿·ÖÊý¾Ý¿â
-*  Ä£°åÒýÇæÖ§³Ö-ÄÚÖÃÁË¸ßÐÔÄÜµÄ»ùÓÚ±êÇ©¿âºÍXML±êÇ©µÄ±àÒëÐÍÄ£°åÒýÇæ
-*  RESTFulÖ§³Ö-Í¨¹ýREST¿ØÖÆÆ÷À©Õ¹Ìá¹©ÁËRESTFulÖ§³Ö£¬ÎªÄã´òÔìÈ«ÐÂµÄURLÉè¼ÆºÍ·ÃÎÊÌåÑé
-*  ÔÆÆ½Ì¨Ö§³Ö-Ìá¹©ÁË¶ÔÐÂÀËSAEÆ½Ì¨ºÍ°Ù¶ÈBAEÆ½Ì¨µÄÇ¿Á¦Ö§³Ö£¬¾ß±¸¡°ºá¿çÐÔ¡±ºÍ¡°Æ½»¬ÐÔ¡±£¬Ö§³Ö±¾µØ»¯¿ª·¢ºÍµ÷ÊÔÒÔ¼°²¿ÊðÇÐ»»£¬ÈÃÄãÇáËÉ¹ý¶É£¬´òÔìÈ«ÐÂµÄ¿ª·¢ÌåÑé¡£
-*  CLIÖ§³Ö-Ö§³Ö»ùÓÚÃüÁîÐÐµÄÓ¦ÓÃ¿ª·¢
-*  RPCÖ§³Ö-Ìá¹©°üÀ¨PHPRpc¡¢HProse¡¢jsonRPCºÍYarÔÚÄÚÔ¶³Ìµ÷ÓÃ½â¾ö·½°¸
-*  MongoDbÖ§³Ö-Ìá¹©NoSQLµÄÖ§³Ö
-*  »º´æÖ§³Ö-Ìá¹©ÁË°üÀ¨ÎÄ¼þ¡¢Êý¾Ý¿â¡¢Memcache¡¢Xcache¡¢RedisµÈ¶àÖÖÀàÐÍµÄ»º´æÖ§³Ö
+## å•†ä¸šå‹å¥½çš„å¼€æºåè®®
 
-## ´óµÀÖÁ¼òµÄ¿ª·¢ÀíÄî
-
-ThinkPHP´Óµ®ÉúÒÔÀ´Ò»Ö±±ü³Ð´óµÀÖÁ¼òµÄ¿ª·¢ÀíÄî£¬ÎÞÂÛ´Óµ×²ãÊµÏÖ»¹ÊÇÓ¦ÓÃ¿ª·¢£¬ÎÒÃÇ¶¼³«µ¼ÓÃ×îÉÙµÄ´úÂëÍê³ÉÏàÍ¬µÄ¹¦ÄÜ£¬ÕýÊÇÓÉÓÚ¶Ô¼òµ¥µÄÖ´×ÅºÍ´úÂëµÄÐÞÁ¶£¬ÈÃÎÒÃÇ³¤ÆÚ±£³Ö³öÉ«µÄÐÔÄÜºÍ¼«ËÙµÄ¿ª·¢ÌåÑé¡£ÔÚÖ÷Á÷PHP¿ª·¢¿ò¼ÜµÄÆÀ²âÊý¾ÝÖÐ±íÏÖ×¿Ô½£¬¼òµ¥ºÍ¿ìËÙ¿ª·¢ÊÇÎÒÃÇ²»±äµÄ×ÚÖ¼¡£
-
-## °²È«ÐÔ
-
-¿ò¼ÜÔÚÏµÍ³²ãÃæÌá¹©ÁËÖÚ¶àµÄ°²È«ÌØÐÔ£¬È·±£ÄãµÄÍøÕ¾ºÍ²úÆ·°²È«ÎÞÓÇ¡£ÕâÐ©ÌØÐÔ°üÀ¨£º
-
-*  XSS°²È«·À»¤
-*  ±íµ¥×Ô¶¯ÑéÖ¤
-*  Ç¿ÖÆÊý¾ÝÀàÐÍ×ª»»
-*  ÊäÈëÊý¾Ý¹ýÂË
-*  ±íµ¥ÁîÅÆÑéÖ¤
-*  ·ÀSQL×¢Èë
-*  Í¼ÏñÉÏ´«¼ì²â 
-
-## ÉÌÒµÓÑºÃµÄ¿ªÔ´Ð­Òé
-
-ThinkPHP×ñÑ­Apache2¿ªÔ´Ð­Òé·¢²¼¡£Apache LicenceÊÇÖøÃûµÄ·ÇÓ¯Àû¿ªÔ´×éÖ¯Apache²ÉÓÃµÄÐ­Òé¡£¸ÃÐ­ÒéºÍBSDÀàËÆ£¬¹ÄÀø´úÂë¹²ÏíºÍ×ðÖØÔ­×÷ÕßµÄÖø×÷È¨£¬Í¬ÑùÔÊÐí´úÂëÐÞ¸Ä£¬ÔÙ×÷Îª¿ªÔ´»òÉÌÒµÈí¼þ·¢²¼¡£# uni-app-u-push
+uni-app-u-push
