@@ -1,0 +1,25 @@
+{
+	"name": "agconnect-json",
+	"id": "nrb-huawei-agconnect-json-plugin",
+	"version": "1.0.0",
+	"description": "华为离线推送配置文件",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "nrb-huawei-agconnect-json-plugin",
+                    "class": "nrb.huawei.agcoonect.json.plugin.AgconnectJsonModule"
+				}
+			],
+			"integrateType": "aar",
+			"minSdkVersion" : 23,
+			"dependencies": [
+            ],
+			"parameters": {  
+				
+			}
+		}
+	}
+}

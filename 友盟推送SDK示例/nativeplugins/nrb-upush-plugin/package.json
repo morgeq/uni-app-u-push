@@ -1,0 +1,113 @@
+{
+    "name": "nrb-upush-plugin",
+    "id": "nrb-upush-plugin",
+    "version": "1.0.3",
+    "description": "友盟推送Hbuilder插件",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "nrb-upush-plugin",
+                    "class": "com.umeng.soexample.push"
+                }
+            ],
+            "integrateType": "aar",
+            "minSdkVersion": "19",
+            "permissions": [
+                "${applicationId}.permission.JPUSH_MESSAGE",
+                "android.permission.RECEIVE_USER_PRESENT",
+                "android.permission.INTERNET",
+                "android.permission.READ_PHONE_STATE",
+                "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_SETTINGS",
+                "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+                "android.permission.ACCESS_NETWORK_STATE",
+                "android.permission.ACCESS_WIFI_STATE",
+                "com.huawei.android.launcher.permission.CHANGE_BADGE",
+                "android.permission.VIBRATE",
+                "android.permission.SYSTEM_ALERT_WINDOW",
+                "android.permission.ACCESS_COARSE_LOCATION",
+                "android.permission.CHANGE_WIFI_STATE",
+                "android.permission.ACCESS_FINE_LOCATION",
+                "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+                "android.permission.CHANGE_NETWORK_STATE",
+                "android.permission.GET_TASKS",
+                "android.permission.QUERY_ALL_PACKAGES",
+                "${applicationId}.permission.MIPUSH_RECEIVE",
+                "com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE",
+                "com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"
+            ],
+            "parameters" : {
+                "huawei_appid" : {
+                    "des" : "华为通道，AppID，格式：appid=1234，从华为开发者联盟获取：https://developer.huawei.com/",
+                    "key" : "com.huawei.hms.client.appid",
+                    "value" : ""
+                },
+                "meizu_appid" : {
+                    "des" : "魅族通道，AppID，格式：appid=1234，从魅族开放平台获取：https://open.flyme.cn/open-web/views/push.html",
+                    "key" : "umeng_push_meizu_appid",
+                    "value" : ""
+                },
+                "meizu_appkey" : {
+                    "des" : "魅族通道，Secret，从魅族开放平台获取：https://open.flyme.cn/open-web/views/push.html",
+                    "key" : "umeng_push_meizu_appkey",
+                    "value" : ""
+                },
+                "oppo_appkey" : {
+                    "des" : "OPPO通道，AppKey，从OPPO开放平台获取：https://open.oppomobile.com/newservice/capability?pagename=push",
+                    "key" : "umeng_push_oppo_appkey",
+                    "value" : ""
+                },
+                "oppo_appsecret" : {
+                    "des" : "OPPO通道，AppSecret，从OPPO开放平台获取：https://open.oppomobile.com/newservice/capability?pagename=push",
+                    "key" : "umeng_push_oppo_appsecret",
+                    "value" : ""
+                },
+                "umeng_appkey_android" : {
+                    "des" : "友盟应用Appkey，从友盟推送后台获取https://upush.umeng.com/",
+                    "key" : "umeng_appkey_android",
+                    "value" : ""
+                },
+                "umeng_appkey_ios" : {
+                    "des" : "友盟iOS应用的APPkey",
+                    "key" : "umeng_appkey",
+                    "value" : ""
+                },
+                "umeng_secret_android" : {
+                    "des" : "友盟应用Umeng Message Secret，从友盟推送后台获取https://upush.umeng.com/",
+                    "key" : "umeng_secret_android",
+                    "value" : ""
+                },
+                "umeng_test_mode_ios" : {
+                    "des" : "友盟iOS推送是否为测试模式，如果是填1，填其他或不填则为非测试模式,友盟日志开关只在测试模式下会开启。",
+                    "key" : "umeng_test_mode",
+                    "value" : ""
+                },
+                "vivo_apikey" : {
+                    "des" : "VIVO通道，AppKey，从VIVO开放平台获取：https://vpush.vivo.com.cn",
+                    "key" : "com.vivo.push.api_key",
+                    "value" : ""
+                },
+                "vivo_appid" : {
+                    "des" : "VIVO通道，AppID，从VIVO开放平台获取：https://vpush.vivo.com.cn",
+                    "key" : "com.vivo.push.app_id",
+                    "value" : ""
+                },
+                "xiaomi_id" : {
+                    "des" : "小米通道，AppID，格式：appid=1234，从小米开放平台获取：https://dev.mi.com/console/",
+                    "key" : "umeng_push_xiaomi_id",
+                    "value" : ""
+                },
+                "xiaomi_key" : {
+                    "des" : "小米通道，AppKey，格式：appkey=1234，从小米开放平台获取：https://dev.mi.com/console/",
+                    "key" : "umeng_push_xiaomi_key",
+                    "value" : ""
+                }
+            }
+        }
+    }
+}

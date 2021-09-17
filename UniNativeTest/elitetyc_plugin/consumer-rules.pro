@@ -1,0 +1,5 @@
+-ignorewarnings
+-keepattributes *Annotation*, Exceptions, InnerClasses, Signature, SourceFile, LineNumberTable
+-keep class com.hianalytics.android.** {*;}
+-keep class com.huawei.updatesdk.** {*;}
+-keep class com.huawei.hms.** {*;}
