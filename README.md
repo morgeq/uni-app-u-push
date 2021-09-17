@@ -7,4 +7,4 @@
 
 ## 商业友好的开源协议
 
-uni-app-u-push
+uni-app-upush
